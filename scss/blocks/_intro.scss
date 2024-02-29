@@ -1,0 +1,62 @@
+.intro {
+    background-image: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.685) 97.16%), url(../../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: bottom center;
+
+    &-inner {
+        @extend .d-flex;
+        @extend .align-items-center;
+
+    }
+
+    &__content {
+        flex-basis: 60%;
+    }
+
+    &__form-box {
+        flex-basis: 40%;
+    }
+
+    &__title {
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &__desc {
+        font-size: 24px;
+    }
+
+    &__features {
+        @extend .d-flex;
+        margin-block: 60px;
+
+    }
+
+    &__feature-box {
+        flex-basis: 33%;
+        padding: var(--container-padding-x);
+        background-color: var(--color-light);
+        border: var(--border);
+        border-radius: var(--border-radius);
+        @extend .d-flex;
+        gap: calc(var(--container-padding-x) / 2);
+        flex-direction: column;
+    }
+
+    &__feature-img {
+        width: 70px;
+        aspect-ratio: 1;
+    }
+
+    &__btn {
+        font-size: 18px;
+        margin-bottom: 20px;
+
+        span {
+            display: block;
+            font-size: 0.8em;
+            font-weight: 400;
+            text-transform: initial;
+        }
+    }
+}

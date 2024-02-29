@@ -5,7 +5,19 @@
   margin-inline: auto;
   padding-inline: var(--container-padding-x);
 }
-
+.section{
+  padding-block: 80px;
+}
+.d-flex{
+  display: flex;
+  gap:  var(--container-padding-x);
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
 .visually-hidden {
   @include visually-hidden;
 }
