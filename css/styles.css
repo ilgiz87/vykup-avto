@@ -339,8 +339,8 @@ h4, .h4 {
 }
 
 .intro {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(97.16%, rgba(255, 255, 255, 0.685))), url(../../images/intro-bg.jpg);
-  background-image: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.685) 97.16%), url(../../images/intro-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(97.16%, rgba(255, 255, 255, 0.685))), url(../images/intro-bg.jpg);
+  background-image: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.685) 97.16%), url(../images/intro-bg.jpg);
   background-size: cover;
   background-position: bottom center;
 }
