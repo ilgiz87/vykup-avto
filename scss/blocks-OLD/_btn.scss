@@ -1,0 +1,15 @@
+.btn {
+  // font-size: 14px;
+  padding: 1em 3em;
+  clip-path: polygon(1em 0%, 100% 0%, calc(100% - 1em) 100%, 0% 100%);
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition-duration: var(--transition-duration);
+        &:hover{
+            opacity: .8;
+            scale: 1.1;
+        }
+}

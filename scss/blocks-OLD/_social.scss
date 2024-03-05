@@ -1,0 +1,35 @@
+.social {
+    @extend .d-flex;
+    @extend .align-items-center;
+    gap: 0;
+
+    &__link {
+        @include flex-center;
+
+        flex-basis: 2.3em;
+        flex-shrink: 0;
+        text-decoration: none;
+        color: #fff;
+        width: 2.3em;
+        height: 1.8em;
+        font-size: 20px;
+        clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
+        transition-duration: var(--transition-duration);
+        &:hover{
+            opacity: .8;
+            scale: 1.2;
+        }
+
+        &--vk {
+            background-color: #0077FF;
+        }
+
+        &--wa {
+            background-color: #3DB66D;
+        }
+
+        &--tg {
+            background-color: #35B0E5;
+        }
+    }
+}
